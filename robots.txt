@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sarahwu3223.github.io/GLOBAL-TRADE-EMPIRE/sitemap.xml
