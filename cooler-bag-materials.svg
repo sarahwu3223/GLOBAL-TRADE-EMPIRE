@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+<title id="title">MINLU three-layer outdoor cooler bag fabric construction</title>
+<desc id="desc">Exploded three-layer fabric diagram showing Oxford fabric, pearl cotton cushioning, and reinforced mesh fabric, with English and Chinese labels.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f8f9fb"/><stop offset="1" stop-color="#eef1f4"/></linearGradient>
+  <linearGradient id="ox" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#41464d"/><stop offset="1" stop-color="#171c23"/></linearGradient>
+  <linearGradient id="foam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d9dfe5"/></linearGradient>
+  <linearGradient id="mesh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#303740"/><stop offset="1" stop-color="#111820"/></linearGradient>
+  <pattern id="weave" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M0 4H16 M0 12H16 M4 0V16 M12 0V16" stroke="#aab0b8" stroke-opacity=".18" stroke-width="2"/></pattern>
+  <pattern id="foamdots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="2" fill="#aeb8c2" opacity=".5"/><circle cx="15" cy="15" r="2" fill="#aeb8c2" opacity=".5"/></pattern>
+  <pattern id="meshgrid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 0L18 18 M18 0L0 18" stroke="#aeb7c2" stroke-opacity=".22" stroke-width="1.5"/></pattern>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#182333" flood-opacity=".14"/></filter>
+</defs>
+<rect width="1440" height="760" rx="24" fill="url(#bg)"/>
+<text x="82" y="88" fill="#172538" font-family="Arial, sans-serif" font-size="32" font-weight="700" letter-spacing="2">THREE-LAYER FABRIC CONSTRUCTION</text>
+<text x="84" y="126" fill="#687587" font-family="Arial, sans-serif" font-size="20">多层复合面料结构 · DURABILITY  /  CUSHIONING  /  PROTECTION</text>
+<g filter="url(#shadow)">
+  <path d="M105 260 L420 170 L760 275 L445 372 Z" fill="url(#ox)" stroke="#0f1720" stroke-width="2"/>
+  <path d="M105 260 L420 170 L760 275 L445 372 Z" fill="url(#weave)"/>
+  <path d="M105 260 L445 372 L445 410 L105 298 Z" fill="#171d25"/>
+  <path d="M445 372 L760 275 L760 313 L445 410 Z" fill="#252d37"/>
+  <path d="M105 385 L420 295 L760 400 L445 497 Z" fill="url(#foam)" stroke="#c8d0d8" stroke-width="2"/>
+  <path d="M105 385 L420 295 L760 400 L445 497 Z" fill="url(#foamdots)"/>
+  <path d="M105 385 L445 497 L445 534 L105 423 Z" fill="#d7dee5"/>
+  <path d="M445 497 L760 400 L760 438 L445 534 Z" fill="#c7d0d9"/>
+  <path d="M105 510 L420 420 L760 525 L445 622 Z" fill="url(#mesh)" stroke="#0f1720" stroke-width="2"/>
+  <path d="M105 510 L420 420 L760 525 L445 622 Z" fill="url(#meshgrid)"/>
+  <path d="M105 510 L445 622 L445 660 L105 548 Z" fill="#111820"/>
+  <path d="M445 622 L760 525 L760 563 L445 660 Z" fill="#222b35"/>
+</g>
+<g font-family="Arial, sans-serif">
+  <path d="M760 275 L850 275 L900 225" fill="none" stroke="#c39d58" stroke-width="3"/>
+  <circle cx="760" cy="275" r="7" fill="#c39d58"/>
+  <text x="925" y="216" fill="#9a783d" font-size="18" font-weight="700" letter-spacing="2">OUTER LAYER · 外层</text>
+  <text x="925" y="258" fill="#172538" font-size="31" font-weight="700">Oxford Fabric</text>
+  <text x="925" y="291" fill="#687587" font-size="21">牛津布</text>
+  <text x="925" y="329" fill="#4d5a69" font-size="18">Abrasion-resistant · Tear-resistant</text>
+  <text x="925" y="357" fill="#4d5a69" font-size="18">耐磨 · 抗撕裂</text>
+
+  <path d="M760 400 L850 400 L900 410" fill="none" stroke="#c39d58" stroke-width="3"/>
+  <circle cx="760" cy="400" r="7" fill="#c39d58"/>
+  <text x="925" y="405" fill="#9a783d" font-size="18" font-weight="700" letter-spacing="2">CUSHIONING LAYER · 缓冲层</text>
+  <text x="925" y="447" fill="#172538" font-size="31" font-weight="700">Pearl Cotton</text>
+  <text x="925" y="480" fill="#687587" font-size="21">珍珠棉</text>
+  <text x="925" y="518" fill="#4d5a69" font-size="18">Shock-absorbing · Protective cushioning</text>
+  <text x="925" y="546" fill="#4d5a69" font-size="18">缓冲减震 · 防撞保护</text>
+
+  <path d="M760 525 L850 525 L900 590" fill="none" stroke="#c39d58" stroke-width="3"/>
+  <circle cx="760" cy="525" r="7" fill="#c39d58"/>
+  <text x="925" y="585" fill="#9a783d" font-size="18" font-weight="700" letter-spacing="2">INNER LAYER · 内层</text>
+  <text x="925" y="627" fill="#172538" font-size="31" font-weight="700">Reinforced Mesh Fabric</text>
+  <text x="925" y="660" fill="#687587" font-size="21">夹网布</text>
+  <text x="925" y="698" fill="#4d5a69" font-size="18">Water-resistant · Stain-resistant · Wear-resistant</text>
+</g>
+</svg>
