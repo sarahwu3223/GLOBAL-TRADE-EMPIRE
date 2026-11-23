@@ -166,3 +166,87 @@ footer a { text-decoration: underline; text-underline-offset: 3px; }
   html { scroll-behavior: auto; }
   .product-jump { transition: none; }
 }
+
+
+/* Buyer-facing product specifications and commercial terms */
+.spec-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 22px;
+}
+.spec-card {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: var(--white);
+}
+.spec-label {
+  display: block;
+  margin-bottom: 9px;
+  color: var(--accent);
+  font-size: .67rem;
+  font-weight: 800;
+  letter-spacing: .075em;
+  line-height: 1.4;
+}
+.spec-card strong {
+  display: block;
+  color: var(--navy);
+  font-size: 1.08rem;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+.spec-card p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: .84rem;
+  line-height: 1.55;
+}
+.commercial-terms {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 14px;
+}
+.commercial-terms > div {
+  padding: 19px;
+  border-radius: 12px;
+  background: #e9ece1;
+}
+.commercial-terms b {
+  display: block;
+  color: var(--accent);
+  font-size: .77rem;
+  letter-spacing: .04em;
+}
+.commercial-terms strong {
+  display: block;
+  margin-top: 5px;
+  color: var(--navy);
+  font-size: 1.28rem;
+  line-height: 1.3;
+}
+.commercial-terms p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: .86rem;
+}
+.patent-note {
+  margin-top: 16px;
+  padding: 16px 18px;
+  border-left: 4px solid #a6b990;
+  border-radius: 8px;
+  background: #f4f5ef;
+  color: var(--ink);
+  font-size: .88rem;
+  line-height: 1.6;
+}
+@media (max-width: 760px) {
+  .spec-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+  .spec-card { padding: 13px; }
+  .spec-card strong { font-size: .96rem; }
+  .spec-card p { font-size: .78rem; }
+  .commercial-terms { grid-template-columns: 1fr; gap: 9px; }
+}
