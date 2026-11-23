@@ -67,7 +67,7 @@ section { padding-block: clamp(46px, 6vw, 90px); }
 .section-head h2 { font-size: clamp(2rem, 4.2vw, 4rem); letter-spacing: -.055em; font-weight: 690; }
 .section-head .eyebrow { color: var(--accent); letter-spacing: .14em; }
 .section-head p { max-width: 62ch; }
-.product-jumps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.product-jumps { display: grid; grid-template-columns: repeat(auto-fit, minmax(245px, 1fr)); gap: 16px; }
 .product-jump {
   display: grid;
   grid-template-columns: 82px minmax(0, 1fr) auto;
